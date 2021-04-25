@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() , NotesAdapter {
         setContentView(binding.root)
 
         println("This is contained in my SECOND COMMIT");
+        today  is a good day
 
         binding.recycler.layoutManager =LinearLayoutManager(this)
         val adapter = RecyclerViewAdapter(this, this)
